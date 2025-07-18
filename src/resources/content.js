@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ahmed",
+  lastName: "Raza",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Applied Chemist",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "ahmedraza17260@gmail.com",
+  location: "Asia/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Urdu"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,17 +30,32 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/ahmedraza17260/",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/ahmedraza17260/",
+  },
+  {
+    name: "Facebook",
+    icon: "facebook",
+    link: "https://www.facebook.com/ahmedraza1726/",
+  },
+  {
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/ahmedraza17260/",
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@ahmedraza17260/",
+  },
+  {
+    name: "Pinterest",
+    icon: "pinterest",
+    link: "https://pinterest.com/ahmedraz17260/",
   },
   {
     name: "Email",
@@ -63,8 +78,10 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Ahmed Raza, Assistant Manager Processing at Global Exports,
+       {/* <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/> */}
+       Highly motivated professional with 2+ years of experience in, 
+      <br /> process control, dyeing planning, and production costing within the textile industry.
     </>
   ),
 };
@@ -90,9 +107,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Highly motivated professional with 2+ years of experience in process control, dyeing planning, 
+        and production costing within the textile industry. Seeking a role to improve operational efficiency, 
+        minimize rework, and drive continuous improvement in manufacturing operations.
       </>
     ),
   },
@@ -101,41 +118,59 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Global Exports",
+        timeframe: "Jan 2025 - Present",
+        role: "Ass.Manager Processing",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Managed production costing for dyeing operations.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Planned and scheduled dyeing operations, ensuring on-time delivery.
+          </>,
+          <>
+            Created comprehensive production performance reports.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Global Exports",
+        timeframe: "26th May 2023 - 31 Dec 2024",
+        role: "MTO",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Optimized dyeing performance by analyzing real-time data.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Conducted quality control tests (Formic Acid, Acetic Acid, Caustic Soda purity; absorbency and solid content analysis), 
+            ensuring 100% compliance with industry standards.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Dalda Food",
+        timeframe: "Six Weeks Internship at Quality Department.",
+        role: "Intenship",
+        achievements: [
+          <>
+            Performed quality tests (FFA, Soap Content, M&I, SMP, FAME, POV, Citric Acid) 
+            on edible oil products, ensuring adherence to food safety standards.
+          </>,
+          <>
+            Conducted Line and Packaging Quality Departure Inspections.
+          </>,
+          <>
+            Collaborated with QA team to document findings.
           </>,
         ],
         images: [],
@@ -147,12 +182,16 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Karachi",
+        description: <>Studied M.Sc Applied Chemistry.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of Karachi",
+        description: <>Studied B.Sc Applied Chemistry.</>,
+      },
+      {
+        name: "Sir Adamjee Institute",
+        description: <>Studied Pre Engineering.</>,
       },
     ],
   },
@@ -161,37 +200,37 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "React",
+        description: <>Personal Portfolio built using React.js.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-02.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/project-01/cover-03.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
-      {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
+      // {
+      //   title: "Next.js",
+      //   description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+      //   // optional: leave the array empty if you don't want to display images
+      //   images: [
+      //     {
+      //       src: "/images/projects/project-01/cover-04.jpg",
+      //       alt: "Project image",
+      //       width: 16,
+      //       height: 9,
+      //     },
+      //   ],
+      // },
     ],
   },
 };
