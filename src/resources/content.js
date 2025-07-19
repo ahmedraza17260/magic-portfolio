@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Applied Chemist",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/ahmed.jpg",
   email: "ahmedraza17260@gmail.com",
   location: "Asia/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Urdu"], // optional: Leave the array empty if you don't want to display languages
@@ -262,42 +262,42 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/portfolio.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/ahmed-raza-electronics.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/amazon-clone.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/gallery/linkedin-clone.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/expense.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/login.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/quiz.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/shopping-basket.jpg",
       alt: "image",
       orientation: "vertical",
     },
