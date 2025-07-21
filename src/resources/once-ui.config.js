@@ -1,4 +1,4 @@
-import { home } from "./content";
+import { home, person} from "./content";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
 const baseURL = "https://m-ahmedraza-portfolio.vercel.app/";
@@ -128,7 +128,7 @@ const effects = {
 };
 
 const mailchimp = {
-  action: "https://gmail.us9.list-manage.com/subscribe/post?u=c3a9564390f2e9c857dfc7668&amp;id=6bab507f16&amp;f_id=00dd50e1f0",
+  action: "https://gmail.us9.list-manage.com/subscribe/post?u=c3a9564390f2e9c857dfc7668&id=6bab507f16&f_id=00dd50e1f0",
   effects: {
     mask: {
       cursor: true,
