@@ -94,6 +94,7 @@ export default async function RootLayout({
             `,
           }}
         />
+        <meta name="google-site-verification" content="Uci8IjF2EgHntOJmX03HN4YgFLGUcnv5klqZEtqHy-Y" />
       </head>
       <Providers>
         <Column as="body" background="page" fillWidth style={{minHeight: "100vh"}} margin="0" padding="0" horizontal="center">
