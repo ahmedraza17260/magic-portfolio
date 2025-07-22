@@ -175,7 +175,7 @@ const mailchimp = {
 const schema = {
   logo: "",
   type: "Portfolio",
-  name: "AhmedRaza",
+  name: "Ahmed Raza",
   description: home.description,
   email: person.email,
 };
